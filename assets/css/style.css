@@ -335,6 +335,17 @@ font-style: normal;
     font-size: 16px;
 }
 
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
 /* Reach out styles end */
 
 /* Media Query for smaller desktop screens and smaller */
