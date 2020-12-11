@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #fce138;
     --secondary-color: #024e76;
@@ -403,7 +404,6 @@ section {
     overflow: hidden;
 }
 
-
 .trainer-img::after {
     content: "";
     height: 100%;
@@ -641,30 +641,30 @@ font-style: normal;
         flex: 100%;
     }
     
-    .service
-}
 
-.service-grid-container {
+    .service-grid-container {
      grid-template-columns: 1fr 1fr;
-}
+    }
 
-.service-grid-item.basic {
+    .service-grid-item.basic {
     grid-column: 1;
-}
+    }
 
-.service-grid-item.both {
+    .service-grid-item.both {
     grid-column: 1 / -1;
-}
+    }
 
-.service-grid-item.cancel {
+    .service-grid-item.cancel {
     grid-column: 1/ -1;
     grid-row: -1;
     transform: none;
     writing-mode: unset;
-}
+    }
 
-.trainer-img h3, .trainer-img h4, .trainer-img::after {
+    .trainer-img h3, .trainer-img h4, .trainer-img::after {
     display: none;
+    }
+
 }
 
 /* Media Query for mobile phones and smaller */
